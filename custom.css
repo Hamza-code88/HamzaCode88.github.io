@@ -1,0 +1,121 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+
+
+
+
+/*download coundown*/
+
+
+.downlad-box{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 200px;
+}
+.downlad-box div{
+	flex-basis: 50%;
+	
+}
+.down-left h1{
+	text-align: center;
+	padding: 20px;
+	font-size: 35px;
+}
+
+.down-left img{
+	width: 100%;
+	padding: 40px;
+}
+
+.down-right{
+	background: #eeeeee;
+	height: 1000px;
+	text-align: center;
+}
+
+.d-s-right{
+	margin-top: 50px;
+
+}
+.d-s-right nav a{
+	font-size: 18px;
+	padding: 8px 13px;
+	margin: 10px 0;
+
+}
+
+
+
+
+.btn{
+	padding: 15px 35px;
+	font-size: 20px;
+	background: var(--sec);
+	color: #fff;
+	margin:80px 0;
+	cursor: pointer;
+}
+.countdown{
+	margin: 50px;
+	font-size: var(--fsiz);
+}
+.countdown span{
+			color: #0693f6;
+			font-size: 1.6em;
+
+
+		}
+
+.download-link{
+	margin: 50px 0;
+	transition: .4s;
+	display: none;
+}
+.download-link a{
+	padding: 15px 35px;
+	font-size: 20px;
+	background: var(--sec);
+	color: #fff;
+	cursor: pointer;
+}
+
+
+
+.navigation{
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+/*responsiveness*/
+
+
+@media screen and (max-width: 800px){
+
+	.downlad-box{
+		display: block
+	}
+}
+
+
+
+@media screen and (max-width: 465px){
+/*boiler plate editing*/
+
+.boiler ol pre{
+	/*background: red;*/
+}
+
+
+}

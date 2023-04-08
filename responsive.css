@@ -1,0 +1,371 @@
+@media all {
+	#navigation ul li a {
+		transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+	}
+}
+
+
+@media screen and (max-width: 1850px){
+	
+	header p{
+		font-size: 22px;
+	}
+}
+
+
+@media screen and (max-width: 1920px){
+	
+	header h1{
+		top: 20%;
+	}
+}
+
+
+@media screen and (max-width: 1060px){
+
+	
+	.short-tut{
+		display: block
+	}
+
+
+	.sidebar-1{
+		height: 100px;
+		text-align: center;
+		padding: 20px 0;
+	}
+	.sidebar-1 ul li{
+		display: inline-block
+	}
+
+
+	
+	
+	.contact{
+		margin: 150px 0;
+	}
+
+	.co-row{
+		display: block;
+
+		width: 80%;
+		margin: 0px 100px;
+	}
+
+	
+	.co-row div{
+		margin-top: 50px;
+		text-align: center;
+
+	}
+
+	.popup{
+		left: 300px;
+	}
+}
+
+
+@media screen and (max-width: 850px){
+	
+	.nav{
+		position: absolute;
+		/*background: red;*/
+		width: 60%;
+		height: 800px;
+		display: none;
+		z-index: 3;
+		transition: .3s;
+
+	}
+	.nav ul{
+		display: block;
+
+	}
+	.nav ul li{
+		background: var(--pri);
+		margin: 20px 10px;
+	}
+	.nav ul li a{
+
+		font-size: 22px;
+	}
+
+	.toggale{
+		display: flex;
+		transition: .3s;
+	}
+	.close{
+	display:inline-block;
+	font-size: 55px;
+	font-weight: bolder;
+	text-align: center;
+	padding: 10px 20px;
+	border: 2px solid var(--pri);
+	color: whitesmoke;
+	position: relative;
+	top: 100px;
+	left: 40%;
+	cursor: pointer;
+	transition: .3s;
+	}
+
+	.popup{
+		left: 200px;
+	}
+
+	/*coming soon styling*/
+	.coming-title{
+		
+		left: 150px;
+		
+	}
+
+}
+
+@media screen and (max-width: 770px){
+		.sidebar-1{
+		background: transparent;
+		margin: 50px 0;
+	}
+
+	.co-right p,.co-right h3,.f-row-1st div a,.f-row-1st div p,.co-right h3 a{
+		font-size: var(--fsiz);
+	}
+
+	.popup{
+		left: 150px;
+	}
+}
+@media screen and (max-width: 750px){
+		.services{
+			display: block
+		}
+		.s-left{
+			margin: 30px 0;
+			width: 100%;
+
+		}
+		.s-right{
+			width: 100%;
+		}
+	
+}
+
+@media screen and (max-width: 730px){
+	.popup{
+		left: 100px;
+	}
+}
+
+@media screen and ( max-width: 630px){
+
+	header h1{
+		left: 10%;
+
+	}
+	header p{
+		padding: 20px 10px;
+	}
+	.co-row {
+		margin: 0px 50px;
+
+	}
+	/*coming soon styling*/
+	.coming-title{
+		left:0;
+		padding: 0;
+		margin: 0;
+	}
+
+}
+
+
+@media screen and (max-width: 500px){
+	.popup{
+		left: 50px;
+	}
+
+
+	.f-box{
+		top: 1200px;
+	}
+	.f-row-1st{
+		display: block
+	}
+	.f-row-1st div{
+		margin: 10px 0;
+	}
+	
+	.f-box > p{
+		font-size: var(--fsiz);
+	}
+}
+@media screen and (max-width: 450px){
+
+	.nav{
+		
+		width: 100%;
+	}
+	header h1{
+		left: 5%;
+
+	}
+	.sidebar-1{
+		margin: 100px 0;
+	}
+	
+	.popup{
+		left: 0;
+	}
+	#navigation ul li,.short-nav ul li{
+	 float:none; 
+	 text-align:center;
+	 border-bottom:1px solid #dedede; 
+	}
+	.navigation a,.short-nav a{ 
+		float:none;
+	 padding:0px 0px; 
+	 width:100%; 
+	text-align:center;
+	 text-transform:uppercase;
+	}
+
+}
+
+
+@media screen and (max-width: 420px){
+	.logo h1{
+		font-size: 2rem;
+	}
+	header h1{
+		left: 0;
+
+	}
+
+}
+
+
+
+@media screen and (max-width: 400px){
+
+	.co-row{
+		width: 100%;
+		margin: 0 0;
+	}
+	.co-row div{
+		width: 100%;
+		margin: 50px 0;
+	}
+
+	.m-title{
+		font-size: 2rem;
+
+	}
+	.m-title span{
+		left: 10px;
+	}
+
+}
+
+@media screen and (max-width: 395px){
+
+	.toggale{
+		
+		font-size: 20px;
+
+	}
+	.nav ul li a{
+		font-size: 16px;
+	}
+
+
+	.close{
+		padding: 5px 10px;
+		font-size: 35px;
+		top: 50px;
+	}
+	header h1{
+		font-size: 38px;
+	}
+}
+@media screen and (max-width: 320px){
+
+	.logo h1{
+		font-size: 1.4rem;
+	}
+
+	.toggale{
+		font-size: 30px;
+		background: #fff;
+	}
+
+
+	.co-left input,.co-left textarea{
+		width: 100%;
+		padding: 5px 5px;
+	}
+
+	.co-right{
+		text-align: left;
+	}
+	.co-right h3{
+		text-align: left;
+		margin-left: 5px;
+		font-size: 22px;
+	}
+	.co-right h3 a{
+		font-size: var(--fsiz);
+	}
+
+	.f-box{
+		top: 1300px;
+	}
+
+}
+
+@media screen and (max-width: 300px){
+
+	
+	.co-right p,.co-right h1{
+		text-align: left;
+	letter-spacing: 0px;
+	}
+	.co-right h3 a{
+		letter-spacing: 0px;
+
+	}
+	.f-row-1st div p{
+		padding: 30px 0;
+	}
+	.f-box > p{
+		padding: 50px 0;
+
+	}
+	.fr-head-row{
+		display: inline-block;
+	}
+	#contents{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	
+
+	}
+	.fr-head-row div{
+		margin: 40px 0;
+		padding: 10px;
+	}
+	
+	.down-btn a{
+		font-size: var(--fsiz);
+	}
+}
+
+@media screen and (max-width: 300px){
+	.head-2{
+		font-size: 35px;
+	}
+}
